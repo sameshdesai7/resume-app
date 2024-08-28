@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Homepage from './pages/homepage';
+import { Box } from '@mui/material';
 
 /**
  * App is the main component of the application.
@@ -8,9 +10,9 @@ import './App.css';
  */
 function App() {
   return (
-    <div className="App">
-      Testing
-    </div>
+    <Box>
+      <Homepage></Homepage>
+    </Box>
   );
 }
 
