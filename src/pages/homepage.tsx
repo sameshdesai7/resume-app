@@ -1,10 +1,11 @@
 import { Box, Card, Typography } from "@mui/material";
+import BiographyCard from '../custom-components/biography-card';
 
 export default function Homepage() {
     return (
         <Box sx = {{margin : "2%"}}>
             <Box>
-                <Typography variant="h3" color="white">Homepage</Typography>
+                <BiographyCard></BiographyCard>
             </Box>
         </Box>
     )
