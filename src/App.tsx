@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Homepage from './pages/homepage';
-import { Box } from '@mui/material';
+import { Box, CssBaseline, ThemeProvider } from '@mui/material';
+import {theme} from './Services/themeProvider';
 
 /**
  * App is the main component of the application.
@@ -10,9 +11,12 @@ import { Box } from '@mui/material';
  */
 function App() {
   return (
-    <Box>
-      <Homepage></Homepage>
-    </Box>
+    <ThemeProvider theme = {theme}>
+      <CssBaseline/>
+      <Box>
+        <Homepage></Homepage>
+      </Box>
+    </ThemeProvider>
   );
 }
 
