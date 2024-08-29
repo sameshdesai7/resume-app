@@ -33,7 +33,7 @@ export default function Homepage() {
                                 sequence={[
                                     // Same substring at the start will only be typed out once, initially
                                     'I am proficient in TypeScript',
-                                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                    1000, 
                                     'I am proficient in React',
                                     1000,
                                     'I am proficient in Java',
