@@ -10,14 +10,17 @@ export default function Homepage() {
             {/* Grid for biography card and other menu */}
             <Grid container spacing={2}>
                 <Grid size={6}>
-                    <Box sx={{ backgroundColor: "#000000" }}>
+                    <Box sx={{borderRadius: "10px", backgroundColor: "#FFFFFF" }}>
                         {/*Left Side Content Here  */}
+                        <Typography variant="h3">
+                            Hi there!
+                        </Typography>
                     </Box>
 
                 </Grid>
                 <Grid size={6}>
 
-                    <Box sx={{ backgroundColor: "#000000" }}>
+                    <Box sx={{ backgroundColor: "#FFFFFF" }}>
                         {/* Right Side Content here  */}
                     </Box>
                 </Grid>
