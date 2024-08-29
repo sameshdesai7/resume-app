@@ -41,7 +41,7 @@ export const darkPallete = createPalette({
     background:
     {
         default: '#20242d',
-        paper: '#20242d'
+        paper: '#000000'
     }
 }
 )
