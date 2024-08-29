@@ -17,7 +17,7 @@ export default function Homepage() {
                         sx={{ borderRadius: "10px"}}>
                         {/*Left Side Content Here  */}
 
-                        <Stack>
+                        <Stack spacing = {4}>
                         <Typography variant="h3" color = "primary.light">
                             Hi there!
                         </Typography>
@@ -27,8 +27,8 @@ export default function Homepage() {
                         <Typography variant="h6">
                            placeholder text
                         </Typography>
-                        <Button variant ="contained" sx = {{maxWidth: "50px"}}>
-                            test
+                        <Button variant ="contained" sx = {{maxWidth: "150px"}}>
+                            View More!
                         </Button>
                         </Stack>
                     </Box>
