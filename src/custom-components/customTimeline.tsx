@@ -11,7 +11,7 @@ const steps = [
     tooltip: 'Starting my journey at West Virginia University'
   },
   {
-    label: 'Learned Java and OOB concepts',
+    label: 'Learned General Programming concepts & practices',
     tooltip: ''
   },
   {
@@ -27,7 +27,7 @@ const steps = [
     tooltip: 'Spent two weeks traveling in the Amafi Coast. This included Italy, Spain, and France.'
   },
   {
-    label: 'SuggesTunes Web Application',
+    label: '\'SuggesTunes\' React Web Application',
     tooltip: 'Developed a web application for music suggestions'
   },
   {
@@ -51,7 +51,7 @@ export default function customTimeline() {
       <Stepper activeStep={steps.length-2} alternativeLabel sx={{ p: 0 }}>
         {steps.map((step) => (
           <Step key={step.label}>
-            <Tooltip title={step.tooltip}>
+            <Tooltip title={""}>
               <StepLabel>{step.label}</StepLabel>
             </Tooltip>
           </Step>

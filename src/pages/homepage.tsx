@@ -15,10 +15,10 @@ export default function Homepage() {
         <Stack spacing ={10} sx={{ margin: "2%", marginTop: "10%", paddingLeft: "5%", paddingRight: "5%"}}>
             <Biography/>
             <CustomDivider/>
-                <Timeline/>
-            <CustomDivider/>
             <TechSkills/>
             <Tools/>
+            <CustomDivider/>
+            <Timeline/>
             <CustomDivider/>
             <Projects/>
             <CustomDivider/>
