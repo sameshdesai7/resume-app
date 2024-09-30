@@ -43,10 +43,11 @@ export default function TechSkills(){
                 </Box>
             </Typography>
             
-            <Grid container spacing={2} sx={{ width: "100%", display: "flex", justifyContent: "center" }}>
+            <Grid container spacing={2} sx={{ width: "100%", display: "flex", justifyContent: "center", }}>
                 {skills.map(skill => (
                     <Grid key={skill.name} size = {1} sx={{ display: "flex", justifyContent: "center" }}>
-                        <Card sx={{ backgroundColor: "background.default", width: "100%", maxWidth: "150px", borderRadius: "10px", boxShadow: 3 }}>
+                        <Card sx={{ backgroundColor: "background.default", width: "100%", maxWidth: "150px", borderRadius: "10px", boxShadow: 3, ":hover": { boxShadow: 20, color: "primary.main", transform: "scale(1.05)" }}}>
+
                             <CardContent>
                                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                                     <img src={skill.image} alt={skill.name} style={{ width: "100px", height: "100px", filter: "brightness(0) invert(1)" }} />

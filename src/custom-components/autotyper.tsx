@@ -32,6 +32,10 @@ export default function AutoTyper() {
                                     2000,
                                     'Linux.',
                                     2000,
+                                    'AutoDesk.',
+                                    2000,
+                                    '3D Printing.',
+                                    2000,
                                 ]}
                                 wrapper="span"
                                 speed={50}
