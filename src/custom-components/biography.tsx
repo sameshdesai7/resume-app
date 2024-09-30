@@ -26,8 +26,8 @@ export default function Biography() {
                     </Typography>
 
                     <Typography variant="h6" sx={{ color: "text.secondary" }}>
-                        I'm a computer sceince student with a pasion for software development. Currently I am enrolled at West Virgnia University set to graduate in December 2024. 
-                        During my time at WVU I gained skills in&nbsp;
+                        I'm a computer science student with a passion for software development. Currently I am enrolled at West Virgnia University set to graduate in December 2024. 
+                        During my time at WVU I haved gained skills in&nbsp;
                         <Box sx={{ color: "primary.main", display: "inline" }}>
                             <AutoTyper></AutoTyper>
                         </Box>

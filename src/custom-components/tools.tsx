@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid2";
 import VSCodeLogo from '../assets/VSCodeLogo.png';
 import PostmanLogo from '../assets/postmanLogo.png';
 import SwaggerLogo from '../assets/SwaggerLogo.svg';
+import ViteLogo from '../assets/viteLogo.png';
 
 export default function Tools(){
     const tools = [
@@ -10,6 +11,8 @@ export default function Tools(){
         {name: "Visual Studio", image: VSCodeLogo},
         {name: "Postman", image: PostmanLogo},
         {name: "Swagger", image: SwaggerLogo},
+        // {name: "Vite", image: ViteLogo},
+
   
     ];
 
