@@ -4,6 +4,7 @@ import { Stack } from '@mui/material';
 import { Typography } from '@mui/material';
 import Cubes from '../Hobbies/rubix-cubes';
 import Gaming from '../Hobbies/gaming';
+import Health from '../Hobbies/health';
 
 
 export default function Hobbies() {
@@ -13,6 +14,7 @@ export default function Hobbies() {
             <Typography variant="h4" sx={{fontFamily: "monospace", paddingBottom: '50px',}}>Hobbies</Typography>
             <Cubes/>
             <Gaming/>
+            <Health/>
         </Stack>
         
     );
