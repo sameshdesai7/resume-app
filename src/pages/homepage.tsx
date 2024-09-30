@@ -1,4 +1,4 @@
-import {Stack } from "@mui/material";
+import {Box, Stack } from "@mui/material";
 import Biography from "../custom-components/biography";
 import Projects from "../custom-components/projects";
 import CustomDivider from "../custom-components/customDivider";
@@ -13,7 +13,9 @@ export default function Homepage() {
         <Stack spacing ={10} sx={{ margin: "2%", marginTop: "10%", paddingLeft: "10%"}}>
             <Biography/>
             <CustomDivider/>
-            <Timeline/>
+            <Box sx = {{paddingRight : "10%"}}>
+                <Timeline/>
+            </Box>
             <CustomDivider/>
             <Skills/>
             <CustomDivider/>
