@@ -26,8 +26,8 @@ export default function Biography() {
                     </Typography>
 
                     <Typography variant="h6" sx={{ color: "text.secondary" }}>
-                        I'm a computer sceince student with a pasion for software development currently enrolled at West Virgnia University set to graduate in December 2024. 
-                        During my time in at WVU I gained skills in &nbsp;
+                        I'm a computer sceince student with a pasion for software development. Currently I am enrolled at West Virgnia University set to graduate in December 2024. 
+                        During my time at WVU I gained skills in&nbsp;
                         <Box sx={{ color: "primary.main", display: "inline" }}>
                             <AutoTyper></AutoTyper>
                         </Box>
@@ -37,6 +37,13 @@ export default function Biography() {
                         Email Me!
                     </Button>
                 </Stack>
+            </Box>
+
+        </Grid>
+
+        <Grid size={6}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <img src={require("../assets/programmer.png")} alt="Samesh Desai" style={{ width: "400px", borderRadius: "10px"}} />
             </Box>
 
         </Grid>
