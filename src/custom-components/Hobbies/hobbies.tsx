@@ -39,13 +39,13 @@ export default function Hobbies() {
                     <Card sx={{ backgroundColor: "background.default", width: "100%", maxWidth: "500px", borderRadius: "10px", boxShadow: 3 }}>
                         <CardContent>
                             <Typography variant="h5" component="h5" sx={{ fontFamily: "monospace", color: "primary.main" }}>
-                                Counter Strike 2
+                                Gaming
                             </Typography>
                             <Typography variant="body1" component="p" sx={{ fontFamily: "", color: "text.secondary" }}>
                                 <ul>
-                                    <li>Skills Learned: Communication, Teamwork, Quick Thinking, Hand Eye Coordination</li>
-                                    <li>Highest Rank: 17000 Elo</li>
-                                    <li>Hours Played: 3000+</li>
+                                    <li>Placeholder 1</li>
+                                    <li>Placeholder 1</li>
+                                    <li>Placeholder 1</li>
                                 </ul>
                             </Typography>
 
