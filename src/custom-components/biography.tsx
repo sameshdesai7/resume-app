@@ -43,7 +43,7 @@ export default function Biography() {
 
         <Grid size={6}>
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <img src={require("../assets/programmer.png")} alt="Samesh Desai" style={{ width: "400px", borderRadius: "10px"}} />
+                <img src={require("../assets/programmer.png")} alt="ProgrammerImage" style={{ width: "400px", borderRadius: "10px"}} />
             </Box>
 
         </Grid>

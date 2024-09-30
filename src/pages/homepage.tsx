@@ -22,7 +22,7 @@ export default function Homepage() {
             <CustomDivider/>
             <Projects/>
             <CustomDivider/>
-            <Hobbies/>
+            {/* <Hobbies/> */}
         </Stack>
 
     )
