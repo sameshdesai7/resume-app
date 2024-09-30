@@ -3,7 +3,7 @@ import Biography from "../custom-components/biography";
 import Projects from "../custom-components/projects";
 import CustomDivider from "../custom-components/customDivider";
 import Timeline from "../custom-components/customTimeline";
-import Hobbies from "../custom-components/hobbies";
+import Hobbies from "../custom-components/Hobbies/hobbies";
 import Skills from "../custom-components/skills";
 
 export default function Homepage() {
