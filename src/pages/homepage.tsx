@@ -18,11 +18,11 @@ export default function Homepage() {
             <TechSkills/>
             <Tools/>
             <CustomDivider/>
-            <Timeline/>
-            <CustomDivider/>
+            {/* <Timeline/>
+            <CustomDivider/> */}
             <Projects/>
             <CustomDivider/>
-            <Hobbies/>
+            {/* <Hobbies/> */}
         </Stack>
 
     )
