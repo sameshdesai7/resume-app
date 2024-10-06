@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid2";
 import tools from "./tools";
 import SuggesTunesPreview from "../assets/SuggesTunesPreview.jpg"
 import JitHubOSPreview from "../assets/JitHubOSPreview.png"
-import Programmer from "../assets/programmer.png"
+import Programmer from "../assets/PortfolioPreview.jpg"
 import LinuxAccessControlPreveiew from "../assets/LinuxACSPreview.jpg"
 import PRTAppPreview from "../assets/PRTAppPreview.jpg"
 
