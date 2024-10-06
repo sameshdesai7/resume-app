@@ -10,11 +10,11 @@ import PRTAppPreview from "../assets/PRTAppPreview.jpg"
 export default function Projects() {
 
     const projects = [
-        {name: "PRT Telematics System", image: PRTAppPreview, description: "A capstone project where I worked on a team to develop a telematics system for the PRT", demo: "", github: ""},
-        {name: "SuggesTunes", image: SuggesTunesPreview, description: "A music suggestion web application that recommends songs based on a user's listening history.", demo: "", github: ""},
-        {name: "C Operating System", image: JitHubOSPreview, description: "An operating system written in C that supports a command line interface and allows users to execute commands.", demo: "", github: "https://github.com/sameshdesai7/Jithub"},
+        {name: "PRT Telematics System", image: PRTAppPreview, description: "A capstone project where I worked on a team to develop a telematics system for the PRT. Created a hardware device to capture vehicle telemetry data. Built a RESTful API to store and retrieve data. Finally created a web application to visualize the data.", demo: "", github: ""},
+        {name: "SuggesTunes", image: SuggesTunesPreview, description: "An AI enabled music recommendation app that allows users to search for songs based on their current activity.", demo: "", github: ""},
+        {name: "C Operating System", image: JitHubOSPreview, description: "An operating system written in C that supports a command line interface and allows users to execute commands using real operating system structures.", demo: "", github: "https://github.com/sameshdesai7/Jithub"},
         {name: "Portfolio Website", image: Programmer, description: "This website is a portfolio of my projects and skills. It is built using React and MUI.", demo: "https://samesh-desai.vercel.app/", github: "https://github.com/sameshdesai7/resume-app"},
-        {name: "Linux/Unix Access Control", image: LinuxAccessControlPreveiew, description: "A system for managing access control in a Linux/Unix environment", demo: "", github: ""}
+        {name: "Linux/Unix Access Control", image: LinuxAccessControlPreveiew, description: "A system designed to mimic the Access Control System of Linux/Unix systems. This project was used to learn about the underlying mechanics of how Linux/Unix manages access control.", demo: "", github: ""}
     ]
 
 
