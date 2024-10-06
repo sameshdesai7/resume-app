@@ -7,6 +7,7 @@ import Hobbies from "../custom-components/Hobbies/hobbies";
 import TechSkills from "../custom-components/technical-skills";
 import Tools from "../custom-components/tools";
 import SoftSkills from "../custom-components/soft-skills";
+import GitHub from "../custom-components/github";
 
 export default function Homepage() {
     return (
@@ -20,6 +21,8 @@ export default function Homepage() {
             <CustomDivider/>
             {/* <Timeline/>
             <CustomDivider/> */}
+            <GitHub/>
+            <CustomDivider/>
             <Projects/>
             <CustomDivider/>
             {/* <Hobbies/> */}
