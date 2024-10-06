@@ -45,7 +45,7 @@ export default function Projects() {
                                     </Typography>
                                     <Stack direction="row" spacing={2} sx={{justifyContent: "center", padding: "10px"}}>
                                         <Button disabled = {tool.demo == ""} variant="contained" href={tool.demo}>Demo</Button>
-                                        <Button disabled = {tool.github == ""} variant="outlined" href={tool.github}>Github</Button>
+                                        <Button disabled = {tool.github == ""} variant="outlined" href={tool.github}>GitHub</Button>
                                     </Stack>
                                 </CardContent>
                             </Card>
