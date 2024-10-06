@@ -31,7 +31,7 @@ export default function Projects() {
             <Grid container spacing={2} sx={{ width: "100%", display: "flex", justifyContent: "center" }}>
                 {projects.map(tool => (
                     <Grid key={tool.name} size = {3} sx={{ display: "flex", justifyContent: "center" }}>
-                        <Tooltip title={tool.github == "" ? "This project is in development - demo and github coming soon" : ""}>
+                        <Tooltip title={tool.github == "" ? "Demo and Github link coming soon!" : ""}>
                             <Card sx={{ backgroundColor: "background.default", width: "100%", maxWidth: "600px", borderRadius: "10px", boxShadow: 3, ":hover": { boxShadow: 20, color: "primary.main", transform: "scale(1.05)" }}}>
                                 <CardContent sx={{padding: 0}}>
                                     <Box sx={{ display: "flex", justifyContent: "center" }}>
