@@ -6,7 +6,7 @@ export default function Biography() {
 
     return (
         <Grid container spacing={2}>
-        <Grid size={8}>
+        <Grid size={{ xs: 12, md: 7 }}>
             <Box
                 display="flex"
                 alignItems="center"
@@ -41,7 +41,7 @@ export default function Biography() {
 
         </Grid>
 
-        <Grid size={4}>
+        <Grid size={{ xs: 12, md: 5 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <img src={require("../assets/programmer.png")} alt="ProgrammerImage" style={{ width: "400px", borderRadius: "10px"}} />
             </Box>

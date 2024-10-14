@@ -12,7 +12,7 @@ export default function GitHub() {
                 </Box>
             </Typography>
             <Grid container spacing={2} sx={{ width: "100%", display: "flex", justifyContent: "center" }}>
-                <Grid size={6}>
+                <Grid size={{md: 6, xs: 12}}>
                     <GitHubCalendar blockSize = {20} username="sameshdesai7"/>
                 </Grid>
             </Grid>
