@@ -18,10 +18,10 @@ export default function Biography() {
                 {/*Left Side Content Here  */}
 
                 <Stack spacing={1}>
-                    <Typography variant="h1" sx={{fontFamily: "monospace", fontWeight: "bold", color: "primary.light"}}>
+                    <Typography variant="h1" sx={{fontFamily: "monospace", fontWeight: "bold", color: "primary.light", fontSize: {xs: "3rem", md: "6rem"}}}>
                         Hi there!
                     </Typography>
-                    <Typography variant="h3" sx={{fontFamily: "monospace"}}>
+                    <Typography variant="h3" sx={{fontFamily: "monospace", fontSize: {xs: "2rem", md: "2rem"}}}>
                         I'm Samesh Desai
                     </Typography>
 
@@ -41,8 +41,8 @@ export default function Biography() {
 
         </Grid>
 
-        <Grid size={{ xs: 12, md: 5 }}>
-            <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Grid size={{ xs: 12, md: 5 }} sx = {{display: { xs: 'none', md: 'flex' }, alignItems: 'center', justifyContent: 'center'}}>
+            <Box sx={{ flexDirection: 'column', alignItems: 'center' }}>
                 <img src={require("../assets/programmer.png")} alt="ProgrammerImage" style={{ width: "400px", borderRadius: "10px"}} />
             </Box>
 
