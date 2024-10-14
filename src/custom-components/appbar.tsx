@@ -8,11 +8,13 @@ import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import LinkedInLogo from '../assets/linkedInLogo.png';
+import GitHubLogo from '../assets/GitHubLogo2.png';
 
 const pages = ['Timeline', 'Projects', 'Skills', 'Hobbies'];
 const links = [
-  {name: 'GitHub', icon: 'https://cdn-icons-png.flaticon.com/512/25/25231.png'},
-  {name: 'Linkedin', icon: 'https://cdn-icons-png.flaticon.com/512/61/61110.png'},
+  {name: 'GitHub', icon: GitHubLogo},
+  {name: 'Linkedin', icon: LinkedInLogo},
   {name: 'Instagram', icon: 'https://cdn-icons-png.flaticon.com/512/87/87390.png'},
 ];
 
