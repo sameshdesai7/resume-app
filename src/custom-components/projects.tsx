@@ -19,7 +19,7 @@ export default function Projects() {
 
 
     return (
-        <Box id="Projects" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Box id="#Projects" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Typography variant="h4" sx={{fontFamily: "monospace", paddingBottom: '50px',}}>My Recent&nbsp;
                 <Box sx={{ color: "primary.main", display: "inline" }}>
                     Works

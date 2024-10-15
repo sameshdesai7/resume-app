@@ -36,7 +36,7 @@ export default function TechSkills(){
     ];
 
     return (
-        <Box id = "Skills" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Box id = "#Skills" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Typography variant="h4" sx={{fontFamily: "monospace", paddingBottom: '50px',}}>Professional&nbsp;
                 <Box sx={{ color: "primary.main", display: "inline" }}>
                                 Skill Set

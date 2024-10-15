@@ -17,7 +17,7 @@ export default function Tools(){
     ];
 
     return (
-        <Box id = "Tools"sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Box id = "#Tools"sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Typography variant="h4" sx={{fontFamily: "monospace", paddingBottom: '50px',}}>Tools&nbsp;
                 <Box sx={{ color: "primary.main", display: "inline" }}>
                     I Use
