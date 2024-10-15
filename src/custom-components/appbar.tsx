@@ -10,8 +10,14 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LinkedInLogo from '../assets/linkedInLogo.png';
 import GitHubLogo from '../assets/GitHubLogo2.png';
+import { Link, Element, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
-const pages = ['Timeline', 'Projects', 'Skills', 'Hobbies'];
+const pages = ['Skills', 'Tools', 'Projects'];
+const sectionLinks = [
+  {name: 'Skills', link: '#Skills'},
+  {name: 'Tools', link: '#Tools'},
+  {name: 'Projects', link: '#Projects'},
+];
 const links = [
   {name: 'GitHub', icon: GitHubLogo},
   {name: 'Linkedin', icon: LinkedInLogo},
@@ -48,6 +54,7 @@ export default function ResponsiveAppBar() {
               {pages.map((page) => (
                 <Button
                   key={page}
+                  href={sectionLinks.find(link => link.name === page)?.link}
 
                   sx={{ my: 2, color: 'white', display: 'block' }}
                 >
@@ -58,17 +65,14 @@ export default function ResponsiveAppBar() {
 
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' }, justifyContent: { xs: 'center', md: 'flex-end' }}}>
               {links.map((link) => (
-                <Button
-                  key={link.name}
-                  href={`https://www.${link.name.toLowerCase()}.com`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-
-                  sx={{ my: 2, color: 'white', display: 'flex', alignItems: 'center' }}
-                >
-                  <img src={link.icon} alt={link.name} style={{ width: "30px", height: "30px", marginRight: "10px", filter: "brightness(0) invert(1)" }} />
-                  <Typography display={{ xs: 'none', md: 'flex' }} variant="body1" component="span" sx={{ml: 1}}>{link.name}</Typography>
-                </Button> 
+                <Link key={link.name} to={link.name.toLowerCase()} smooth={true} duration={500}>
+                  <Button
+                    sx={{ my: 2, color: 'white', display: 'flex', alignItems: 'center' }}
+                  >
+                    <img src={link.icon} alt={link.name} style={{ width: "30px", height: "30px", marginRight: "10px", filter: "brightness(0) invert(1)" }} />
+                    <Typography display={{ xs: 'none', md: 'flex' }} variant="body1" component="span" sx={{ml: 1}}>{link.name}</Typography>
+                  </Button>
+                </Link>
               ))}
             </Box>
           </Toolbar>
