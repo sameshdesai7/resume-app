@@ -4,6 +4,10 @@ import AutoTyper from "./autotyper";
 
 export default function Biography() {
 
+    const handleEmailClick = () => {
+        window.open("mailto:sameshdesai7@gmail.com");
+    }
+
     return (
         <Grid container spacing={2}>
         <Grid size={{ xs: 12, md: 7 }}>
@@ -33,7 +37,7 @@ export default function Biography() {
                         </Box>
                     </Typography>
 
-                    <Button variant="contained" sx={{ maxWidth: "150px" }}>
+                    <Button onClick={handleEmailClick} variant="contained" sx={{ maxWidth: "150px" }}>
                         Email Me!
                     </Button>
                 </Stack>
