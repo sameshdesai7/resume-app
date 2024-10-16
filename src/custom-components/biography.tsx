@@ -5,7 +5,7 @@ import AutoTyper from "./autotyper";
 export default function Biography() {
 
     const handleEmailClick = () => {
-        window.open("mailto:sameshdesai7@gmail.com");
+        window.open("mailto:desaisam7@gmail.com");
     }
 
     return (
