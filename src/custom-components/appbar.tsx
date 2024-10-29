@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import LinkedInLogo from '../assets/linkedInLogo.png';
 import GitHubLogo from '../assets/GitHubLogo2.png';
+import VSCOLogo from '../assets/VSCOLogo.png';
 
 import { Link, Element, Events, animateScroll as scroll, scroller } from 'react-scroll';
 
@@ -20,15 +21,19 @@ const sectionLinks = [
   {name: 'Projects', link: '#Projects'},
 ];
 const links = [
-  {name: 'GitHub', icon: GitHubLogo, link: 'https://github.com/SameshDesai7'},
-  {name: 'Linkedin', icon: LinkedInLogo, link: 'https://www.linkedin.com/in/sameshdesai/'},
-  {name: 'Instagram', icon: 'https://cdn-icons-png.flaticon.com/512/87/87390.png', link: ""},
+  {name: 'GitHub', icon: GitHubLogo, link: 'https://github.com/sameshdesai7'},
+  {name: 'Linkedin', icon: LinkedInLogo, link: 'https://www.linkedin.com/in/sameshdesai'},
+  {name: 'VSCO', icon: VSCOLogo, link: 'https://vsco.co/samdesaii/gallery'},
 ];
 
 export default function ResponsiveAppBar() {
 
     return (
       <AppBar position="static">
+
+        <Box>
+        
+        </Box>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
 
@@ -71,17 +76,17 @@ export default function ResponsiveAppBar() {
               ))}
             </Box>
 
-            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' }, justifyContent: { xs: 'center', md: 'flex-end' }}}>
+            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' }, justifyContent: { xs: 'center', md: 'flex-end' }, gap: 2 }}>
               {links.map((link) => (
                 <Button
                   key={link.name}
-                  href={`https://www.${link.name.toLowerCase()}.com`}
+                  href={link.link}
                   target="_blank"
                   rel="noopener noreferrer"
 
                   sx={{ my: 2, color: 'white', display: 'flex', alignItems: 'center' }}
                 >
-                  <img src={link.icon} alt={link.name} style={{ width: "30px", height: "30px", marginRight: "10px", filter: "brightness(0) invert(1)" }} />
+                  <img src={link.icon} alt={link.name} style={{ width: "30px", height: "30px", marginRight: "0px", filter: "brightness(0) invert(1)" }} />
                   <Typography display={{ xs: 'none', md: 'flex' }} variant="body1" component="span" sx={{ml: 1}}>{link.name}</Typography>
                 </Button> 
               ))}
