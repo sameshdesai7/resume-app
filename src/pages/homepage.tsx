@@ -3,7 +3,7 @@ import Biography from "../custom-components/biography";
 import Projects from "../custom-components/projects";
 import CustomDivider from "../custom-components/customDivider";
 import Timeline from "../custom-components/customTimeline";
-import Hobbies from "../custom-components/Hobbies/hobbies";
+import Hobbies from "../custom-components/hobbies"
 import TechSkills from "../custom-components/technical-skills";
 import Tools from "../custom-components/tools";
 import SoftSkills from "../custom-components/soft-skills";
@@ -25,7 +25,7 @@ export default function Homepage() {
             <CustomDivider/>
             <Projects/>
             <CustomDivider/>
-            {/* <Hobbies/> */}
+            <Hobbies/>
         </Stack>
 
     )
