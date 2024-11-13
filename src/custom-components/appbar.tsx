@@ -23,7 +23,7 @@ const sectionLinks = [
 const links = [
   {name: 'GitHub', icon: GitHubLogo, link: 'https://github.com/sameshdesai7'},
   {name: 'Linkedin', icon: LinkedInLogo, link: 'https://www.linkedin.com/in/sameshdesai'},
-  {name: 'VSCO', icon: VSCOLogo, link: 'https://vsco.co/samdesaii/gallery'},
+  // {name: 'VSCO', icon: VSCOLogo, link: 'https://vsco.co/samdesaii/gallery'},
 ];
 
 export default function ResponsiveAppBar() {
